@@ -1,5 +1,9 @@
 import Employee from "./components/Employee";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Employee name="john" role="software Eng" />
+    </>
+  );
 }
 export default App;
