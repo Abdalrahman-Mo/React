@@ -37,7 +37,7 @@ function App() {
   ];
   const [employees, setEmployees] = useState(emps);
   return (
-    <div className="flex flex-wrap gap-5 py-8 justify-center">
+    <div className="flex flex-wrap gap-4 py-8 px-5 bg-slate-200">
       {employees.map((employee) => (
         <Employee
           key={uuidv4()}
