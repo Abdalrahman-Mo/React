@@ -15,7 +15,7 @@ function AddEmployee(props) {
     <div className="text-center my-5">
       <button
         onClick={handleShow}
-        className="px-4 py-1 text-md text-blue-600 font-semibold rounded-sm border border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+        className="px-4 py-1 text-md text-blue-600 font-semibold transition rounded-sm border border-blue-300 hover:text-white hover:bg-blue-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
       >
         + Add Employee
       </button>
