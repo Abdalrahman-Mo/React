@@ -2,6 +2,7 @@ import { useState } from "react";
 import Employee from "../components/Employee";
 import AddEmployee from "../components/AddEmployee";
 import employeesDB from "../components/dbForEmployees";
+
 function App() {
   const allEmployees = employeesDB;
   const [employees, setEmployees] = useState(allEmployees);
