@@ -7,6 +7,7 @@ export default function App() {
       <Router>
         <Navbar>
           <Routes>
+            <Route path="/" element={<Employees />} />
             <Route path="/employees" element={<Employees />} />
           </Routes>
         </Navbar>
